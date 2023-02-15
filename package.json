@@ -1,0 +1,21 @@
+{
+  "name": "woot-ads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js-selfbot-v13": "^2.10.4",
+    "fetch": "^1.1.0",
+    "ini": "^3.0.1",
+    "puppeteer": "^19.7.0",
+    "puppeteer-autoscroll-down": "^1.1.1",
+    "superagent": "^8.0.9"
+  }
+}
