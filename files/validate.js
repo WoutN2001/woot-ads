@@ -17,7 +17,6 @@ const checkWhitelist = async () => new Promise(resolve => {
         .send({method: 'trial', id:id})
         .then(resp => {
             if (resp.status == 200) {
-                console.log(resp.status)
                 lastRefresh = Date.now()
                 resolve(true)
             } else {
