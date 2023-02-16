@@ -109,7 +109,7 @@ const makeOffer = async () => {
 
 //Turn array into string that is accepted by rolimons
 const arrayToString = async (array) => {
-    const string = ''
+    var string = ''
     for (element in array) {
         string = `${string},${array[element]}`
     }
