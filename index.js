@@ -1,4 +1,4 @@
-//hi
+//hi this was made by wout#0001
 
 const {print} = require('./files/print')
 const config = require('./files/config').config()

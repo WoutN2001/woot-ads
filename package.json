@@ -1,7 +1,7 @@
 {
   "name": "woot-ads",
   "version": "1.0.0",
-  "description": "",
+  "description": "roblox ad poster",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
