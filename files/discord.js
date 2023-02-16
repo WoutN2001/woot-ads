@@ -65,7 +65,7 @@ client.on('messageCreate', async msg => {
                 await newChannel.send(message)
                 print('Received new DM and made new channel', 'purple')
 
-                if (config.DISCORD.autoreply = true) {
+                if (config.DISCORD.autoreply == true) {
                     await sleep(5)
                     msg.channel.sendTyping()
                     await sleep(config.DISCORD.reply.length/4)
