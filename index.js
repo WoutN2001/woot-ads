@@ -13,11 +13,11 @@ const notWhitelisted = async () => {
 }
 
 const main = async () => {
-    const whitelist = await checkWhitelist()
-    if (!whitelist == true) {
-        await notWhitelisted()
-        return
-    }
+    //const whitelist = await checkWhitelist()
+    //if (!whitelist == true) {
+        //await notWhitelisted()
+        //return
+    //}
     print(`Welcome back ${await getUsername()}!`, 'green')
     if (config.ROLIMONS.rolienabled) {
         const interval = config.ROLIMONS.rolimonsinterval
